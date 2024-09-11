@@ -3,7 +3,7 @@ package main
 import (
     "log"
     "net/http"
-    "gobin/handlers"
+    "github.com/sa-g-e/gobin/handlers"
 )
 
 func main() {

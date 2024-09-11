@@ -4,7 +4,7 @@ import (
     "html/template"
     "net/http"
     "path/filepath"
-    "gobin/storage"
+    "github.com/sa-g-e/gobin/storage"
 )
 
 func ViewHandler(w http.ResponseWriter, r *http.Request) {

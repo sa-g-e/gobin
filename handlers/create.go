@@ -4,7 +4,7 @@ import (
 	"log"
     "net/http"
     "time"
-    "gobin/storage"
+    "github.com/sa-g-e/gobin/storage"
 )
 
 func CreateHandler(w http.ResponseWriter, r *http.Request) {
