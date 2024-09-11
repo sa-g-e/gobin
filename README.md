@@ -11,9 +11,6 @@ it also gave me an excuse to try make something in go
 - lightweight - 38kb
 - no database
 
-![gobin demo](demo/demo.gif)
-
-
 
 ## Installation
 
@@ -33,10 +30,14 @@ it also gave me an excuse to try make something in go
 Any contributions are welcome, feel free to submit a pull req.
 
 
-
 ## Acknowledgements
 
  - big inspiration from [w4/bin](https://github.com/w4/bin)
  - all the horrible paste bins out there
 
+## TODO
+
+- make it not burn your eyes out
+- add screenshots n stuff to readme
+- add curl support or whatever
 
