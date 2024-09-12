@@ -1,4 +1,4 @@
-[![wow i love typewriter effect WOW](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=700&multiline=true&repeat=false&width=600&height=100&lines=gobin+-+a+minimalistic+paste+bin+written+in+go;first+go+project+%F0%9F%A4%91)](https://saeg.xyz)
+[![i love these typewriter effects](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&repeat=false&width=600&height=60&lines=gobin+-+a+minimalistic+paste+bin+written+in+go)](https://git.io/typing-svg)
 
 most "other" paste bins are bloated with tons of other features so i thought i'd try make something minimalistic
 
