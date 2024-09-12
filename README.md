@@ -5,11 +5,13 @@ most "other" paste bins are bloated with tons of other features so i thought i'd
 it also gave me an excuse to try make something in go
 ## Features
 
-- create pastes that expire
-- view pastes if you have its link
+- create pastes w/expiration
+- view pastes with link
 - (sort of) automatic deletion of expired of pastes
-- lightweight - 38kb
+- auto syntax highlighting
 - no database
+- lightweight - 38kb
+
 
 
 ## Installation
