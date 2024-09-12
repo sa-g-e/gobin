@@ -7,19 +7,17 @@
     <style>
         * {
             box-sizing: border-box;
+            margin: 0;
+            padding: 0;
         }
         html, body {
-            margin: 0;
             height: 100%;
+            overflow: hidden;
         }
         body {
             display: flex;
             justify-content: center;
             align-items: center;
-            background: #f3f0ff;
-            font-family: Arial, sans-serif;
-            padding: 0;
-            overflow: hidden;
         }
         form {
             display: flex;
@@ -33,39 +31,39 @@
             height: 100%;
             padding: 1rem;
             border: none;
-            outline: none;
-            resize: none;
-            background: #ffffff;
-            color: #333;
+            background: #7202bd1f;
+            color: #7202bd;
             font-size: 1rem;
-            font-family: inherit;
+            font-family: Arial, sans-serif;
+            resize: none;
+            outline: none;
         }
         button[type="submit"], input[name="expire"] {
             position: absolute;
             bottom: 1rem;
+            right: 1rem;
             padding: 0.5rem 1rem;
-            border: none;
+            border: 1px solid #7202bd;
+            background-color: transparent;
+            color: #7202bd;
             border-radius: 4px;
             font-size: 1rem;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
+            transition: background-color 0.3s, color 0.3s;
         }
         button[type="submit"] {
-            right: 1rem;
-            background-color: #4CAF50;
-            color: white;
+            cursor: pointer;
         }
         button[type="submit"]:hover {
-            background-color: #45a049;
+            background-color: #7202bd;
+            color: white;
         }
         input[name="expire"] {
-            right: 6rem;
-            background-color: #f8f8f8;
-            border: 1px solid #ddd;
+            margin-right: 5rem;
+            cursor: text;
         }
         input[name="expire"]:focus {
+            border-color: #7202bd;
             outline: none;
-            border-color: #4CAF50;
         }
     </style>
 </head>

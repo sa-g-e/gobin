@@ -34,10 +34,11 @@ Any contributions are welcome, feel free to submit a pull req.
 
  - big inspiration from [w4/bin](https://github.com/w4/bin)
  - all the horrible paste bins out there
+ - [highlight js](https://highlightjs.org/)
 
 ## TODO
 
-- make it not burn your eyes out
+- make it not burn your eyes out | DONE
 - add screenshots n stuff to readme
 - add curl support or whatever
 
