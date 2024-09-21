@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{.ID}}</title>
+    <title></title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
     <style>
@@ -23,7 +23,21 @@
     </style>
 </head>
 <body>
+    <h1></h1>
     <script>hljs.highlightAll();</script>
-    <pre><code>{{.Content}}</code></pre>
+    {{ if . }}
+        <ul>
+            {{ range . }}
+                <li class="hljs">
+                    <!-- <strong>ID:</strong> {{ .ID }} <br> -->
+                     {{ .Content }} <br>
+                    <!-- <strong>Expires:</strong> {{ .Expire }} <br> -->
+                </li>
+            {{ end }}
+        </ul>
+    {{ else }}
+        <p>No pastes available.</p>
+    {{ end }}
+    <!-- <pre><code></code></pre> -->
 </body>
 </html>
